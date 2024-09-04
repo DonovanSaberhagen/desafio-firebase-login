@@ -66,8 +66,8 @@ export default {
   position: absolute;
   left: 40%;
   top: 250%;
-  width: 450px;
-  height: 380px;
+  width: 500px;
+  height: 350px;
   background-color: #fff;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 10px;
@@ -77,8 +77,7 @@ export default {
 
 .title {
   text-align: center;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   margin: 10px 0 30px 0;
   font-size: 28px;
   font-weight: 800;
@@ -102,8 +101,7 @@ export default {
 
 .form-btn {
   padding: 10px 15px;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Times New Roman', Times, serif;
   border-radius: 20px;
   border: 0 !important;
   outline: 0 !important;

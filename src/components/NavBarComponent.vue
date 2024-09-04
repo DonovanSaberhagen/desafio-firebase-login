@@ -1,11 +1,8 @@
 <template>
   <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">Firebase Login</a>
-      <div
-        class="collapse navbar-collapse d-flex justify-content-end"
-        id="navbarNav"
-      >
+      <a class="navbar-brand" href="/">Home</a>
+      <div class="d-flex justify-content-end" id="navbarNav">
         <div class="navbar-nav">
           <h3 class="nav-item">
             <router-link to="/">Iniciar sesión</router-link>
@@ -31,7 +28,7 @@ ul {
 nav {
   padding: 20px;
   background-color: #01d9ff;
-  
+
 }
 
 nav a {
