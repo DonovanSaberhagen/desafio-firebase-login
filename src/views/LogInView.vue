@@ -5,18 +5,8 @@
       <div class="form-container">
         <p class="title">Inicia sesión</p>
         <div class="form">
-          <input
-            v-model="email"
-            type="email"
-            class="input"
-            placeholder="Email"
-          />
-          <input
-            v-model="password"
-            type="password"
-            class="input"
-            placeholder="Password"
-          />
+          <input v-model="email" type="email" class="input" placeholder="Email" />
+          <input v-model="password" type="password" class="input" placeholder="Password" />
           <button type="submit" class="form-btn">Ingresar</button>
           <span>
             <router-link to="/SignIn">Registrarse</router-link>
@@ -49,7 +39,6 @@ export default {
 </script>
 
 <style scoped>
-
 .background {
   height: 100vh;
   background-image: url(../assets/5914991.jpg);
